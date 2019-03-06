@@ -5,12 +5,10 @@
          version="3.1">
 	<filter>
 		<filter-name>Entrada</filter-name>
-		<display-name>Entrada</display-name>
-		<description></description>
 		<filter-class>br.com.falcaoalado.servlet.servlet.Entrada</filter-class>
 	</filter>
 	<filter-mapping>
 		<filter-name>Entrada</filter-name>
-		<url-pattern>/</url-pattern>
+		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 </web-app>
